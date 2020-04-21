@@ -21,4 +21,12 @@ export default createGlobalStyle`
   html, body, #root {
     height: 100%;
   }
+
+  h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+  }
 `;
