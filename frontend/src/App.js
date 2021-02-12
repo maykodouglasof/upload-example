@@ -107,6 +107,8 @@ class App extends Component {
     return (
       <Container>
         <Content>
+        <h1>Enviar Receita</h1>
+
           <Upload onUpload={this.handleUpload} />
           {!!uploadedFiles.length && (
             <FileList files={uploadedFiles} onDelete={this.handleDelete} />
